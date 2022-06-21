@@ -1,1 +1,1 @@
-### Digital clock example in html, css and javascript
+### Digital clock in html, css and javascript
