@@ -1,11 +1,13 @@
 @import url('https://fonts.google.com/specimen/Inter');
 
+--font: 'Inter'
+
 #digital-clock {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font), sans-serif;
     font-size: 64px;
     text-align: center;
 }
@@ -27,7 +29,7 @@ body {
 }
 
 #switch {
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: var(--font), sans-serif;
     font-size: 92%;
     position: absolute;
     top: 0px;
